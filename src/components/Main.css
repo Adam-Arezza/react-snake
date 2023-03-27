@@ -1,0 +1,41 @@
+.main {
+    display: grid;
+    grid-template-rows: repeat(60, 15px);
+    grid-template-columns: repeat(60, 15px);
+    border: 2px black solid;
+    width: 900px;
+}
+
+.grid-cell{
+    border: 1px solid lightgrey;
+    font-size: xx-small;
+}
+
+.goal-cell {
+    background: red;
+}
+
+.snake-cell {
+    background: blue;
+    border-radius: 7px;
+}
+
+.restart-btn {
+    position: absolute;
+    font-size: 1rem;
+    padding: 10px;
+    top:500px;
+}
+
+.restart-btn:hover {
+    cursor: pointer;
+}
+
+.scoreboard {
+    border-radius: 5px;
+    border: 2px solid black;
+    font-size: 1.2rem;
+    padding: 2px;
+    width: 100px;
+    text-align: left;
+}
